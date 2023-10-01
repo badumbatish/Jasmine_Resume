@@ -1,0 +1,46 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+%\StopCensoring
+
+\subimport{section}{header}
+\begin{document}
+%\small
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{OBJECTIVE}
+
+%{Computer Science major, seeking a position in %Research Experiences for Undergraduate programs.}
+
+
+%\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\subimport{section/}{education}
+
+
+
+
+
+\subimport{section/}{experience}
+
+\subimport{section/project}{project}
+
+\subimport{section/}{skills}
+
+%----------------------------------------------------------------------------------------
+
+
+% \begin{rSection}{Interests}
+%     \begin{itemize}
+%         \item Supercomputers and simulations. Algorithms and Data Structures. Compilers.
+%     \end{itemize}
+% \end{rSection}
+
+\end{document}
