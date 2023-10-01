@@ -17,8 +17,6 @@ jobs:
           path: Jasmine_Resume.pdf
           
       - uses: actions/download-artifact@v3
-        with:
-          name: PDF
         
       - name: Display structure of downloaded files
         run: ls -R
