@@ -15,8 +15,8 @@ jobs:
         with:
           name: PDF
           path: Jasmine_Resume.pdf
-      - name: Download PDF
-        uses: actions/download-artifact@v3
+          
+      - uses: actions/download-artifact@v3
         with:
           name: PDF
         
